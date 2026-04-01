@@ -35,7 +35,7 @@
           </div>
           <p>
                         
-              Member 1
+              Brandon Borzello
             
           </p>
         </div>
@@ -48,30 +48,8 @@
           </div>
           <p>
             
-            Member 2
+            Shantanu Dalvi
             
-          </p>
-        </div>
-        
-        <div class="author-container">
-          <div class="author-image">
-            
-              <img src="">            
-            
-          </div>
-          <p>
-              Member 3
-          </p>
-        </div>
-        
-        <div class="author-container">
-          <div class="author-image">
-                        
-              <img src="">
-            
-          </div>
-          <p>
-            Member 4
           </p>
         </div>
         
@@ -129,7 +107,7 @@
     
     <h2 id="abstract">Abstract</h2>
 
-<p>One or two sentences on the motivation behind the problem you are solving. One or two sentences describing the approach you took. One or two sentences on the main result you obtained.</p>
+<p>Large Language Models (LLMs) require massive computational resources, which results in barriers to deployment in resource-constrained medical environments. While research such as the Lottery Ticket Hypothesis and SparseGPT demonstrates that general-purpose neural networks are extremely over-parametrized and compressible, the limits of this sparsity when it comes to a specific field like medical knowledge is largely unexplored. In this proposal, we outline our procedure for a study using unstructured magnitude pruning on the BioMistral-7B and Mistral architectures. By evaluating the model on the PubMedQA and cais/mmlu datasets using increasing levels of sparsity, we are aiming to find the precise computational cost of retaining specialized medical reasoning and establish a resilience curve for domain-specific LLMs.</p>
 
 <hr>
 
@@ -149,10 +127,17 @@
 <h2 id="introduction">Introduction / Background / Motivation</h2>
 
 <p>
-<b>What did you try to do? What problem did you try to solve? Articulate your objectives using absolutely no jargon.</b>
+<b>What did you try to do? What problem did you try to solve?</b>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Modern LLMs have billions of parameters, which result in the requirement of massive amounts of computing power, as seen by the surge in data center construction and GPU purchases by large tech companies. The sheer scale of this computing has resulted in impressive models that perform well across many subjects; it also makes it nearly impossible to run these models in resource-constrained or offline environments.
+</p>
+
+<p>
+<b>What are your objectives?</b>
+</p>
+<p>
+The core issue is that we do not know for certain how much of the massive parameter counts these models boast are strictly necessary for specialized, specific knowledge of particular fields. Our goal is to determine how much redundancy is present inside biomedical LLMs. More specifically, we want to know: How many of the biomedical LLMs' parameters can be pruned before it experiences a drastic falloff in medical knowledge and diagnostic accuracy?
 </p>
 
 <p>
@@ -178,7 +163,7 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 </p>
 
 <p>
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+First, we will begin with a baseline evaluation at 0% sparsity. We will evaluate their performance on all three of our datasets. Next, using a custom PyTorch script, we will systematically zero-out the lowest-magnitude weights across the layers of both models. We will be using increments of 10%. At each sparsity threshold, we will run an evaluation loop. For the MMLU subsets, we will only track Classification Accuracy. For PubMedQA, we will track Accuracy, Recall, Precision, and F1-Score. Next, we will visualize the data using graphs and charts.
 </p>
 
 <p>
