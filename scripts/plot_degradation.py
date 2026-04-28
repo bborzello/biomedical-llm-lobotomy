@@ -5,16 +5,13 @@ import seaborn as sns
 from sklearn.metrics import f1_score
 import warnings
 
-# Silence terminal warnings for missing files during edge cases
 warnings.filterwarnings('ignore')
 
 sns.set_theme(style="darkgrid")
 
-# --- PATH CONFIGURATION ---
 DATA_DIR = os.path.join("..", "data")
 FILES_DIR = os.path.join("..", "files")
 
-# Ensure output directory exists
 os.makedirs(FILES_DIR, exist_ok=True)
 
 AGGREGATE_FILES = {

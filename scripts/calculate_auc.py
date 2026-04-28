@@ -41,8 +41,6 @@ def extract_mmlu_curve(prefix, subjects):
     return f1s
 
 def calculate_auc(y_values):
-    # Calculate Area Under the Curve using trapezoidal rule
-    # x-axis is 0.0 to 0.9, we use actual spacing for accurate area
     return np.trapezoid(y_values, SPARSITIES)
 
 if __name__ == "__main__":

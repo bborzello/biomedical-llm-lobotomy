@@ -33,7 +33,6 @@ def plot_horizontal_bias():
     mistral_dist = get_distribution(MISTRAL_0, 'parsed_guess')
     biomistral_dist = get_distribution(BIOMISTRAL_0, 'parsed_guess')
 
-    # Reversed so Ground Truth renders at the top of the horizontal chart
     labels = ['BioMistral', 'Base Mistral', 'Ground Truth']
     
     yes_data = [biomistral_dist['yes'], mistral_dist['yes'], truth_dist['yes']]
@@ -59,7 +58,6 @@ def plot_horizontal_bias():
     ax.set_yticklabels(labels, fontsize=12, fontweight='bold')
     ax.set_xlim(0, 100)
     
-    # Move legend to the bottom to save horizontal space
     ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.2), ncol=3, fontsize=11)
 
     for i, v in enumerate(yes_data):
