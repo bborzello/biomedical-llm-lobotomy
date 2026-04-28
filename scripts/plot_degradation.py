@@ -62,7 +62,7 @@ def plot_pubmedqa():
             
     plt.title('PubMedQA Degradation: Base vs. Fine-Tuned', fontsize=18, fontweight='bold')
     plt.xlabel('Pruning Sparsity (%)', fontsize=14)
-    plt.ylabel('Micro F1 Score', fontsize=14)
+    plt.ylabel('F1 Score', fontsize=14)
     plt.xlim(0, 95)
     plt.ylim(0, 1.0)
     plt.xticks(fontsize=12)
@@ -86,7 +86,7 @@ def plot_mmlu_domain(subjects, domain_name, filename):
         
     plt.title(f'MMLU {domain_name} Degradation: Base vs. Fine-Tuned', fontsize=18, fontweight='bold')
     plt.xlabel('Pruning Sparsity (%)', fontsize=14)
-    plt.ylabel('Macro F1 Score', fontsize=14)
+    plt.ylabel('F1 Score', fontsize=14)
     plt.xlim(0, 95)
     plt.ylim(0, 1.0)
     plt.xticks(fontsize=12)
