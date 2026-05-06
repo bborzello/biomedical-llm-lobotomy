@@ -20,7 +20,8 @@ MMLU_PREFIXES = {
 
 LOGIC_SUBJECTS = ["formal_logic", "logical_fallacies", "global_facts"]
 MEDICAL_SUBJECTS = ["college_medicine", "clinical_knowledge"]
-SPARSITIES = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
+
+SPARSITIES = [0.0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
 
 def calculate_domain_f1(df, subjects):
     subset = df[df['subject'].isin(subjects)]
@@ -32,7 +33,7 @@ def calculate_domain_f1(df, subjects):
 def extract_mmlu_curve(prefix, subjects):
     f1s = []
     for s in SPARSITIES:
-        file_path = f"{prefix}_{int(s*100)}_percent.csv"
+        file_path = f"{prefix}_{int(round(s*100))}_percent.csv"
         if os.path.exists(file_path):
             df = pd.read_csv(file_path)
             f1s.append(calculate_domain_f1(df, subjects))
@@ -53,7 +54,6 @@ if __name__ == "__main__":
     for model_name, file_path in AGGREGATE_FILES.items():
         if os.path.exists(file_path):
             df = pd.read_csv(file_path)
-            # Ensure sorting by sparsity just in case
             df = df.sort_values(by='sparsity')
             auc = calculate_auc(df['f1'].tolist())
             print(f"{model_name}: {auc:.4f}")
