@@ -965,7 +965,7 @@ A. M ∨ S
 B. ~(M • S)
 C. ~(M ∨ S)
 D. ~M ∨ ~S
-Answer:",C,C. ~(M,C
+Answer:",C,B. ~(M,B
 formal_logic,"Question:  Select the best translation into predicate logic: All robots are artifacts.
 Options:
 A. (∀x)(Ax ∨ Rx)
@@ -1149,7 +1149,7 @@ A. Tu quoque
 B. Composition
 C. Appeal to the masses
 D. Appeal to reason
-Answer:",C,C. APPEAL TO,C
+Answer:",C,B. COMPOSITION,B
 logical_fallacies,"Question: _Ad populum_. is another name for which fallacy?
 Options:
 A. poisoning the well
@@ -1541,7 +1541,7 @@ A. no valid conclusion can be drawn
 B. the conclusion must affirm the consequent
 C. the conclusion must deny the consequent
 D. the conclusion must deny the antecedent
-Answer:",B,C. THE CONCLUSION MUST,C
+Answer:",B,D. THE CONCLUSION MUST,D
 logical_fallacies,"Question: Moses Maimonides, ""The Guide of the Perplexed"": God, may He be exalted ... existed alone, and nothing else. ...Afterwards, through His will and His volition, He brought into existence out of nothing all the beings as they are, time itself being one of the created things. For time is consequent upon motion, and motion is an accident of what is moved. Furthermore, what is moved...is itself created in time ....
 Options:
 A. Equivocation

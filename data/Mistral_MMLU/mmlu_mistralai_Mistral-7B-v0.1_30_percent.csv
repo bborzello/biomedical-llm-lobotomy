@@ -344,7 +344,7 @@ A. Valid
 B. Invalid. Counterexample when T and W are true and U is false
 C. Invalid. Counterexample when T is true and W and U are false
 D. Invalid. Counterexample when W is true and T and U are false
-Answer:",B,EXPLANATION,X
+Answer:",B,(A),A
 formal_logic,"Question: Identify the antecedent of the following conditional proposition: The university raises tuition if both the governor approves of it and the board of trustees recommends it.
 Options:
 A. The university raises tuition.
@@ -692,7 +692,9 @@ A. Valid
 B. Invalid. Counterexample when O and P are true
 C. Invalid. Counterexample when O is true and P is false
 D. Invalid. Counterexample when P is true and O is false
-Answer:",A,(O,X
+Answer:",A,"B
+
+QUESTION:",B
 formal_logic,"Question: Select the best translation into predicate logic: Leroy is bad only if DJ Khaled shouts his name.
 Options:
 A. Sk ≡ Bl
@@ -1389,7 +1391,7 @@ A. Laudatory personality
 B. Guilt by association
 C. Accident
 D. Begging the question
-Answer:",D,C. ACCIDENT,C
+Answer:",D,BEGGING THE QUESTION,D
 logical_fallacies,"Question: I don't know what the answer is to number 8. But Heather hasn't made the third option into the correct answer for a while, and even then only once, so I'm guessing that this is the fallacy of Composition!
 Options:
 A. Gambler's Fallacy
@@ -2297,7 +2299,7 @@ A. Straw Man
 B. False Dilemma
 C. Inconsistency
 D. Appeal to Authority
-Answer:",C,A. STR,A
+Answer:",C,A. STRAW,A
 logical_fallacies,"Question: Which of the following best describes the fallacy of self-evident truths?
 Options:
 A. arguing that a claim is true based only on evidence that an authority figure accepts the claim.
@@ -4083,7 +4085,9 @@ A. A baseball player hits baseballs from a tee in order to build muscle memory.
 B. A concert flute player falls short of finishing a piece that has a very complex ending without mistakes
 C. A high school English student submits a paper for review by his professor.
 D. A high diver takes instruction from her coach to improve her form on a specific move.
-Answer:",D,B. A CONCERT FL,B
+Answer:",D,"B
+
+QUESTION:",B
 college_medicine,"Question: A young man working with a therapist on becoming more productive is expressing many of his desires throughout growing up and how he feels that it has affected him. Through discernment, the therapist states that he believes the young man’s development is stuck in a stage that reflects itself by his inability to keep his house clean. According to Freud’s theory of psychosexual development, what stage would this young man be fixated in?
 Options:
 A. Anal
@@ -6296,7 +6300,9 @@ A. 3
 B. 20
 C. 23
 D. 46
-Answer:",D,C. 23,C
+Answer:",D,"D
+
+QUESTION:",D
 clinical_knowledge,"Question: Under what circumstances would you use antibiotics prior to catheterization?
 Options:
 A. If the patient has had a catheter in situ for a week.

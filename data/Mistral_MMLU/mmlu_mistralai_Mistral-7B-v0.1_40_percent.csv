@@ -179,7 +179,7 @@ A. (∃x)(Px • Sxj)
 B. (∀x)(Px • Sxj)
 C. (∀x)(Px ⊃ Sjx)
 D. (∀x)(Px ⊃ Sxj)
-Answer:",D,B. (�,B
+Answer:",D,B. (��,B
 formal_logic,"Question: Select the best translation into predicate logic. José introduces Wilma to Kevin. (j: José; k: Kevin; w: Wilma; Ixyz: x introduces y to z)
 Options:
 A. Iwkj
@@ -2032,7 +2032,7 @@ C. Extension
 D. Compound proposition
 Answer:",C,"C
 
-QUESTION:",C
+EXPLAN",C
 logical_fallacies,"Question: "" _Ad antiquitatem_ "" is
 Options:
 A. a specific type of false cause fallacy that argues that since two event happened at the same time one event must have caused the other
@@ -2806,9 +2806,7 @@ A. 62%
 B. 72%
 C. 82%
 D. 92%
-Answer:",C,"B
-
-QUESTION:",B
+Answer:",C,B. 72,B
 global_facts,"Question: What was GDP per capita in the United States in 1950 when adjusting for inflation and PPP in 2011 prices?
 Options:
 A. About $3k
@@ -4368,7 +4366,7 @@ C. ATP binding to the myosin cross bridges.
 D. calcium binding to troponin.
 Answer:",D,"D
 
-EXPLAN",D
+QUESTION:",D
 college_medicine,"Question: The sarcoplasmic reticulum in muscle cells acts as a:
 Options:
 A. store of digestive enzymes.
@@ -6251,7 +6249,7 @@ C. ATP binding to the myosin cross bridges.
 D. calcium binding to troponin.
 Answer:",D,"D
 
-EXPLAN",D
+QUESTION:",D
 clinical_knowledge,"Question: Which of the following is NOT a sign of phlebitis?
 Options:
 A. Swelling.

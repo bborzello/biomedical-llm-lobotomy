@@ -623,7 +623,7 @@ A. Sk ≡ Bl
 B. Bl ≡ Sk
 C. Bx ⊃ Sy
 D. Bl ⊃ Sk
-Answer:",D,B. BL ≡,B
+Answer:",D,C. BX,C
 formal_logic,"Question:  Which of the given formulas of PL is the best symbolization of the following sentence?
 If either George enrolls or Harry enrolls, then Ira does not enroll.
 Options:
@@ -2322,7 +2322,7 @@ A. 55,000
 B. 550,000
 C. 5,500,000
 D. 55,000,000
-Answer:",B,"C. 5,",C
+Answer:",B,A. 55,A
 global_facts,"Question: In 1965 how many Americans thought that sending troops to Vietnam was a mistake?
 Options:
 A. 25%
@@ -3227,7 +3227,7 @@ A. prejudice
 B. discrimination
 C. ethnocentrism
 D. conflict theory
-Answer:",A,A. PREJUDICE,A
+Answer:",A,B. DISCRIMINATION,B
 college_medicine,"Question: Neonatal Respiratory Distress Syndrome (NRDS) is a serious complication seen in infants born prematurely who have a compromised ability to facilitate oxygen diffusion across their alveolar membranes. This is caused by inadequate surfactant production. What role does surfactant play in facilitating oxygen diffusion?
 Options:
 A. Increases surface permeability

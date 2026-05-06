@@ -501,7 +501,7 @@ A. Logically equivalent
 B. Contradictory
 C. Neither logically equivalent nor contradictory, but consistent
 D. Inconsistent
-Answer:",B,H ≡ ~,X
+Answer:",B,A  H,A
 formal_logic,"Question:  Use indirect truth tables to determine whether each set of propositions is consistent. If the set is consistent, choose an option with a consistent valuation. (There may be other consistent valuations.)
 (T ⊃ U) ⊃ (W ⊃ U)
 T ⊃ ~(U ⊃ X)
@@ -5912,9 +5912,7 @@ A. IV administration of a drug will delay its action.
 B. IV administration carries low risk of bacteraemia.
 C. IV administration allows titration of a drug with its desired effect.
 D. An intravenous cannula should never be used for both drug and fluid administration.
-Answer:",C,"C
-
-EXPLAN",C
+Answer:",C,D. AN,D
 clinical_knowledge,"Question: Which of the following factors can affect enzyme activity?
 Options:
 A. Temperature.
@@ -6059,7 +6057,7 @@ A. a solution that has a higher concentration of solutes than the normal human c
 B. a solution that blocks off enteral tubes easily.
 C. a solution that has a lower concentration of solutes than the normal human cell.
 D. a solution with a high fibre content.
-Answer:",A,A HYPERTON,A
+Answer:",A,A. A HYPER,A
 clinical_knowledge,"Question: Which of these is not necessary when examining the jugular venous pulse?
 Options:
 A. Patient's neck muscles should be relaxed

@@ -391,14 +391,16 @@ A. Valid
 B. Invalid. Counterexample when T, X, and Z are true and U and W are false
 C. Invalid. Counterexample when T and X are true and U, W, and Z are false
 D. Invalid. Counterexample when T, W, and Z are true and U and X are false
-Answer:",A,THE GIVEN ARGUMENT,X
+Answer:",A,(T ·,X
 formal_logic,"Question: Select the best translation into predicate logic: Cecilia breaks my heart if, and only if, Maria is either a problem or a girl.
 Options:
 A. Bc ≡ (Pm ∨ Gm)
 B. Bc ≡ (Pm • Gm)
 C. Bc ⊃ (Pm ∨ Gm)
 D. Cb ⊃ (Pm • Gm)
-Answer:",A,C. BC,C
+Answer:",A,"C
+
+QUESTION:",C
 formal_logic,"Question: Select the best translation into predicate logic: If Delilah is in New York City, then Juana is in Bogota or Layla is in San Juan.
 Options:
 A. Nd ⊃ (Bj • Sl)
@@ -2447,9 +2449,9 @@ A. 23%
 B. 38%
 C. 53%
 D. 68%
-Answer:",D,"C
+Answer:",D,"OPTION C
 
-QUESTION:",C
+QUESTION",C
 global_facts,"Question: As of 2019, about what percentage of the world population lives in extreme poverty (less than $1.90 a day)?
 Options:
 A. 5%
@@ -2875,7 +2877,7 @@ A. 260
 B. 2,600
 C. 26,000
 D. 260,000
-Answer:",C,"B. 2,",B
+Answer:",C,C. 26,C
 global_facts,"Question: In 1935 roughly how many Americans were in favor of Social Security act?
 Options:
 A. 90%
@@ -4897,9 +4899,7 @@ A. The ulna nerve can be affected by a fracture of the spiral groove of the hume
 B. It gives rise to a positive phalen's sign
 C. It leads to loss of sensation over the medial half of the hand and medial one and a half digits on both palmar and dorsal aspects of the hand
 D. It supplies the biceps muscles
-Answer:",C,"B
-
-QUESTION:",B
+Answer:",C,"B, C",B
 clinical_knowledge,"Question: How much toothpaste is recommended for cleaning teeth?
 Options:
 A. A smear.

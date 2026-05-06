@@ -907,7 +907,7 @@ A. Gab
 B. ~Gba
 C. aGb
 D. Gba
-Answer:",D,GY: G,X
+Answer:",D,GY:,X
 formal_logic,"Question:  Select the best translation into predicate logic: Not all lobsters are red.
 Options:
 A. ~(∀x)(Lx ⊃ Rx)
@@ -1219,7 +1219,7 @@ A. Begging the Question
 B. False Dilemma
 C. Straw Man
 D. Appeal to Gallery (Provicialism)
-Answer:",B,A. THE ECONOMIC,A
+Answer:",B,A. BEARING,A
 logical_fallacies,"Question: The fallacy of composition is
 Options:
 A. attributing the cause of an event to a simple cause when the cause is more complex
@@ -2229,7 +2229,7 @@ A. About $300
 B. About $3k
 C. About $8k
 D. About $15k
-Answer:",B,. ABOUT $K,X
+Answer:",B,A. ABOUT $,A
 global_facts,"Question: As of 2019, about what percentage of people from the United States says homosexuality should be accepted by society?
 Options:
 A. 52%
@@ -3688,7 +3688,7 @@ A. in glycolysis.
 B. in the conversion of fatty acids to acetyl CoA.
 C. in the tricarboxylic acid cycle (Krebs' cycle).
 D. in glycogenolysis.
-Answer:",B,OXIN G,X
+Answer:",B,A. IN G,A
 college_medicine,"Question: Mutations are errors in DNA that:
 Options:
 A. are always harmful.
@@ -4049,7 +4049,7 @@ A. ATP.
 B. ADP.
 C. phosphocreatine.
 D. oxidative phosphorylation.
-Answer:",A,B. ATP,B
+Answer:",A,A. A.,A
 college_medicine,"Question: How can several different proteins be produced from the same gene?
 Options:
 A. By selective transcription of different parts of the DNA in the gene.
@@ -4247,7 +4247,7 @@ A. Diplopia can never occur if one eye is covered
 B. The outer image is always the false image
 C. A fourth nerve palsy occurs when the patient looks upwards
 D. A sixth nerve palsy causes a divergent squint
-Answer:",B,A DIPLIA,A
+Answer:",B,A SIXTH NERVE P,A
 clinical_knowledge,"Question: Sodium bicarbonate ingestion improves middle distance running performance by:
 Options:
 A. elevating the pH and buffering capacity of the extracellular fluid allowing a faster efflux of hydrogen ions from muscle.

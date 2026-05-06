@@ -147,7 +147,7 @@ A. (∃x)(Px • Sxj)
 B. (∀x)(Px • Sxj)
 C. (∀x)(Px ⊃ Sjx)
 D. (∀x)(Px ⊃ Sxj)
-Answer:",D,AUG APPEND AUG AUG AUG,X
+Answer:",D,FT AUG AUG AUG AUG,X
 formal_logic,"Question: Select the best translation into predicate logic. José introduces Wilma to Kevin. (j: José; k: Kevin; w: Wilma; Ixyz: x introduces y to z)
 Options:
 A. Iwkj
@@ -351,7 +351,7 @@ A. Logically equivalent
 B. Contradictory
 C. Neither logically equivalent nor contradictory, but consistent
 D. Inconsistent
-Answer:",C,P BUG P CRY,X
+Answer:",C,P BUG P BUG,X
 formal_logic,"Question:  Construct a complete truth table for the following pairs of propositions. Then, using the truth tables, determine whether the statements are logically equivalent or contradictory. If neither, determine whether they are consistent or inconsistent. Justify your answers.
 ~O ⊃ P and O ∨ P
 Options:
@@ -464,7 +464,7 @@ A. ~Ia
 B. (∃x)(Ax • ~Ix)
 C. ~Ai
 D. (∃x)(Ix ∨ ~Ax)
-Answer:",B,APPEND APPEND APPEND FRA FRA,X
+Answer:",B,APPEND APPEND FRA FRA FRA,X
 formal_logic,"Question:  Construct a complete truth table for the following pairs of propositions. Then, using the truth tables, determine whether the statements are logically equivalent or contradictory. If neither, determine whether they are consistent or inconsistent. Justify your answers.
 I ≡ ~H and ~(~I ≡ H)
 Options:
@@ -663,7 +663,7 @@ A. (∃x)(Wx ∨ Sx)
 B. (∃x)(Sx ∨ Wx)
 C. (∃x)(Sx • Wx)
 D. (∃x)(Sx ⊃ Wx)
-Answer:",C,HIST APPEND APPEND HIST HIST,X
+Answer:",C,APPEND APPEND APPEND APPEND APPEND,X
 formal_logic,"Question:  Which of the given formulas of PL is the best symbolization of the following sentence?
 Either England's importing beef is not a necessary condition for France's subsidizing agriculture, or China promotes human rights if South Africa supplies diamonds.
 Options:
@@ -1044,7 +1044,7 @@ A. includes two or more alternatives
 B. classifies subjects
 C. affirms the antecedent or denies the consequent
 D. leads to a valid conclusion
-Answer:",A,FRA RENA FRA FRA FRA,X
+Answer:",A,FRA RENA FRA RENA RENA,X
 logical_fallacies,"Question: Which of the following best describes the fallacy of style over substance?
 Options:
 A. Changing the meaning of a word or phrase from one part of the argument to another.
@@ -1100,7 +1100,7 @@ A. ignoring another person's arguments and attacking her character instead
 B. asserting an opposing arguer has taken an easily defeated position, which she has not really taken
 C. causing confusion during an argument by a lack of ability to engage in refutation
 D. using threats of harm instead of reasoning to gain agreement
-Answer:",A,P P  P,X
+Answer:",A,P  P  P,X
 logical_fallacies,"Question: Which of the following fallacies happens when someone concludes that someone must be honest because the people he hangs around with are honest?
 Options:
 A. Laudatory personality
@@ -1177,7 +1177,7 @@ A. appeal to loyalty
 B. reducing to an absurdity
 C. ignorance of refutation
 D. argument against the person
-Answer:",D,COMMON SPELLIDTH SPELL SPELL,X
+Answer:",D,CONSTANT CONSTANT SPELL SPELL SPELL,X
 logical_fallacies,"Question: The fallacy of appeal to the person is rejecting a claim by...
 Options:
 A. Using rhetoric
@@ -1282,7 +1282,7 @@ A. the fallacy of accident
 B. False dilemma
 C. Begging the question
 D. Circular reasoning
-Answer:",A,PHYS STORAGEIDTH MINA,X
+Answer:",A,PHYS HIST APPEND APPEND APPEND,X
 logical_fallacies,"Question: _A priori_ is a fallacy that involves
 Options:
 A. asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.
@@ -1527,7 +1527,7 @@ A. attacking the character or background of someone making an argument instead o
 B. responding to charges of wrongdoing by saying other people do the same thing
 C. arguing against a position only based on personal feelings toward the position
 D. responding to an argument with an expression of derision instead of a counter argument
-Answer:",C,BIS BIS  BIS BIS,X
+Answer:",C,BIS BIS  BIS,X
 logical_fallacies,"Question: Evading burden of proof is another name for the fallacy of
 Options:
 A. Extension
@@ -1716,7 +1716,7 @@ A. Toulmin
 B. Categorical
 C. Disjunctive
 D. Conditional (or hypothetical)
-Answer:",D,IJING APPENDIJING,X
+Answer:",D,IJINGIJINGIJING,X
 logical_fallacies,"Question: Which of the following describes the fallacy of appeal to loyalty?
 Options:
 A. arguing that someone should do something because it will make him or her better liked by others
@@ -2385,7 +2385,7 @@ A. 10%
 B. 30%
 C. 50%
 D. 70%
-Answer:",D,IE HIST HASH HIST HASH,X
+Answer:",D,IE BAD BAD HASH HASH,X
 global_facts,"Question: As of 2018, about what percentage of US adults say criminal risk assessment for people up for parole is an unreasonable application of algorithmic decision making?
 Options:
 A. 26%
@@ -3066,7 +3066,7 @@ A. the enzymes of the tricarboxylic acid cycle (Krebs' cycle).
 B. the components of the electron transport chain.
 C. glycogen molecules.
 D. triacylglycerol molecules.
-Answer:",B,₦₦₦₦₦,X
+Answer:",B,IV₦₦₦₦,X
 college_medicine,"Question: A segment of DNA from a lab mouse is determined to be 5’ – GGATCCTCATG – 3’. Which of the following DNA segments would be the result of this original DNA sequence experiencing both a point mutation and a deletion?
 Options:
 A. 5’ – GCATCCTCATG – 3’
@@ -3101,7 +3101,7 @@ A. The percentage of oxygen in the left atrium would be lower.
 B. The percentage of CO2 in the right ventricle would be higher.
 C. The percentage of oxygen in the right atrium would be lower.
 D. The percentage of oxygen in the right ventricle would be higher.
-Answer:",D,TOCOL KENNISTOCOL KENNISTOCOL,X
+Answer:",D,TOCOL KENNISTOCOLOGLETOCOL,X
 college_medicine,"Question: When preparing for the MCAT exam, a student begins studying electrochemical cells. He learns the basic information needed by actively relating it to previous information he has learned about redox reactions. He then builds from that knowledge to learn the advanced concepts needed. The student’s process is best characterized as:
 Options:
 A. Chunking
@@ -3157,7 +3157,7 @@ A. women have evolved a greater muscle mass.
 B. women can now run faster than men.
 C. women have started training at an earlier age.
 D. more women are now engaged in sport.
-Answer:",D,P HIST PACHUSET,X
+Answer:",D,P HIST P̧,X
 college_medicine,"Question: During muscular contraction, interactions between myosin and actin allow for shortening of each sarcomere. In addition to the power stroke, what other process of muscle contraction requires ATP?
 Options:
 A. Tropomyosin-troponin interaction
@@ -3310,7 +3310,7 @@ A. Dissociative identity disorder
 B. An anxiety disorder
 C. Depersonalization disorder
 D. A schizophrenic episode
-Answer:",C,SCARERNEERNE₦ALAND,X
+Answer:",C,SCARERNE₦ALAND₦,X
 college_medicine,"Question: Endurance training increases the muscle's capacity to:
 Options:
 A. contract faster.
@@ -3555,7 +3555,7 @@ A. Anal
 B. Phallic
 C. Latent
 D. Genital
-Answer:",B,ZEPEONTOCOLIDTHTOCOL,X
+Answer:",B,ZEPEONPEONPEONPEON,X
 college_medicine,"Question: What type of covalent bonds link the amino acids in a protein?
 Options:
 A. Peptide bonds
@@ -3606,7 +3606,7 @@ A. He decides that the first test is always harder than the others.
 B. He says the teacher graded his exam harder because she doesn’t like him.
 C. He says it was due to some home circumstances that won’t be present during the next exam.
 D. He critiques his study methods and tries to find out which led to poor returns.
-Answer:",A,APESAPES SCARAPESAPES,X
+Answer:",A,APES SCARAPESAPES SCAR,X
 college_medicine,"Question: In nerve cells, microtubule-associated proteins (MAPs), most notably MAP2 and MAP tau, act to stabilize microtubules. In a mouse model, a mutant is developed that vastly reduced function across all families of MAPs, leading to increased microtubule degradation. Which cellular activity would likely be most affected?
 Options:
 A. Cardiac muscle contraction
@@ -3732,7 +3732,7 @@ A. Glutamine
 B. Glucose
 C. Carnosine
 D. Amylase
-Answer:",C,APEAPEAPE₦APE,X
+Answer:",C,APEAPEORFAPE KENNIS,X
 college_medicine,"Question: A team of engineers constructing signal lights for airplanes that they can use to guide them to runways are attempting to determine the brightness needed for the pilot to be able to detect the tower at 1 mile away. They set the light to a test brightness and establish communication with an inbound pilot. When the pilot is 1 mile away from the tower, he says he cannot see the light. In terms of Signal Detection Theory, what would this be called?
 Options:
 A. Hit
@@ -3760,7 +3760,7 @@ A. triplet sequences of nucleotide bases in mRNA or DNA .
 B. quadruplet sequences of nucleotide bases in mRNA or DNA.
 C. triplet sequences of amino acids in polypeptide chains.
 D. triplet sequences of deoxyribose sugars in DNA.
-Answer:",A,EDGE HILLS HILLSMINAMINA,X
+Answer:",A,EDGE HILLS HILLS HILLSMINA,X
 college_medicine,"Question: In games like soccer the blood lactate concentration:
 Options:
 A. rarely increases above 3 mM.
@@ -3847,7 +3847,7 @@ A. Glycolysis.
 B. creatine phosphorylation.
 C. phosphocreatine stores.
 D. ATP stores.
-Answer:",D,UNEEBUGEBUGEBUGEBUG,X
+Answer:",D,UNE UNE UNE UNE UNE,X
 college_medicine,"Question: Which of the following factors does not influence success in sport?
 Options:
 A. Ability to tolerate heavy training without succumbing to illness or injury.
@@ -4207,7 +4207,7 @@ A. triplet sequences of nucleotide bases in mRNA or DNA .
 B. quadruplet sequences of nucleotide bases in mRNA or DNA.
 C. triplet sequences of amino acids in polypeptide chains.
 D. triplet sequences of deoxyribose sugars in DNA.
-Answer:",A,EDGE HILLS HILLSMINAMINA,X
+Answer:",A,EDGE HILLS HILLS HILLSMINA,X
 clinical_knowledge,"Question: Fatty acids are transported into the mitochondria bound to:
 Options:
 A. thiokinase.
@@ -4417,7 +4417,7 @@ A. the enzymes of the tricarboxylic acid cycle (Krebs' cycle).
 B. the components of the electron transport chain.
 C. glycogen molecules.
 D. triacylglycerol molecules.
-Answer:",B,₦₦₦₦₦,X
+Answer:",B,IV₦₦₦₦,X
 clinical_knowledge,"Question: If the mean rate of oxygen consumption of a male athlete during a training session is 2 l/min, then his rate of energy expenditure is approximately:
 Options:
 A. 400 kJ/min.
@@ -4459,7 +4459,7 @@ A. It is due to a deficiency of cortisol hormone
 B. Enlarged extremities are commonly seen
 C. Osteoporosis is not a feature
 D. A moon face and a buffalo hump are characteristic of the disease
-Answer:",D,ORFORFORFORF₦,X
+Answer:",D,MINAORFORFORF₦,X
 clinical_knowledge,"Question: The main factors determining success in sport are:
 Options:
 A. a high energy diet and large appetite.
@@ -4529,7 +4529,7 @@ A. 2:25
 B. 15:02
 C. 1:05
 D. 30:02:00
-Answer:",D,AVIAAVIA STO STOAVIA,X
+Answer:",D,AVIAAVIA STO STO STO,X
 clinical_knowledge,"Question: A person weighs 62 kg. Their drug dose is 15 mg/kg. How many grams is their dose? Choose one answer from the following:
 Options:
 A. 930
@@ -4606,7 +4606,7 @@ A. 5%
 B. 10%
 C. 20%
 D. 30%
-Answer:",D,UTI MDORESTGU APPEND,X
+Answer:",D,WALT MDORESTGU APPEND,X
 clinical_knowledge,"Question: Which of the following best describes the effects of morphine?
 Options:
 A. Reduces pain intensity and increases alertness.
@@ -4690,7 +4690,7 @@ A. Proximal phalynx, middle phalynx, distal phalynx.
 B. Distal phalynx, middle phalynx, proximal phalynx.
 C. Middle phalynx, distal phalynx, proximal phalynx.
 D. Distal phalynx, proximal phalynx, middle phalynx.
-Answer:",A,MEMORY MEMORY DETAIL DETAIL DETAIL,X
+Answer:",A,MEMORY MEMORY MEMORY DETAIL DETAIL,X
 clinical_knowledge,"Question: Which of the following promotes glucose and amino acid uptake by muscle?
 Options:
 A. Adrenaline
@@ -4704,7 +4704,7 @@ A. flush with the skin.
 B. 3-5cm in length.
 C. below skin level.
 D. over 5cm in length.
-Answer:",B,,X
+Answer:",B,MEMORY,X
 clinical_knowledge,"Question: Which of the following would not be done before catheterizing?
 Options:
 A. Gain patient consent.
@@ -4970,7 +4970,7 @@ A. Glutamine
 B. Glucose
 C. Carnosine
 D. Amylase
-Answer:",C,APEAPEAPE₦APE,X
+Answer:",C,APEAPEORFAPE KENNIS,X
 clinical_knowledge,"Question: Which of the following is true about Addisons Disease?
 Options:
 A. It is due to a deficiency of prolactin hormone
@@ -5026,7 +5026,7 @@ A. women have evolved a greater muscle mass.
 B. women can now run faster than men.
 C. women have started training at an earlier age.
 D. more women are now engaged in sport.
-Answer:",D,P HIST PACHUSET,X
+Answer:",D,P HIST P̧,X
 clinical_knowledge,"Question: Our genetic material is made up of:
 Options:
 A. deoxyribonucleic acid.
@@ -5040,7 +5040,7 @@ A. pyrexia.
 B. using unhumidified oxygen.
 C. excessive weight loss.
 D. diarrhoea.
-Answer:",C,P P P FILE,X
+Answer:",C,P P P,X
 clinical_knowledge,"Question: Exhaustion, confusion, and unresponsiveness can be indicators of:
 Options:
 A. respiratory failure.
@@ -5243,7 +5243,7 @@ A. A pulsatile mass is always due to an aortic aneurysm
 B. An enlarged kidney is dull to percussion
 C. A large mass arising out of the pelvis which disappears following urethral catheterization is caused by an ovarian cyst
 D. An indentible mass is caused by faecal loading of the colon
-Answer:",D,BISUPEROGLE BISUPER,X
+Answer:",D,BISUPERUPERUPERUPER,X
 clinical_knowledge,"Question: Which of the following is not a category used to classify patients according to the Glasgow Coma Scale?
 Options:
 A. Eye opening.
@@ -5404,7 +5404,7 @@ A. Glycolysis.
 B. creatine phosphorylation.
 C. phosphocreatine stores.
 D. ATP stores.
-Answer:",D,UNEEBUGEBUGEBUGEBUG,X
+Answer:",D,UNE UNE UNE UNE UNE,X
 clinical_knowledge,"Question: A change in blood pressure is detected by the:
 Options:
 A. baroreceptors.

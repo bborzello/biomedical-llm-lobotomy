@@ -830,7 +830,7 @@ A. Logically equivalent
 B. Contradictory
 C. Neither logically equivalent nor contradictory, but consistent
 D. Inconsistent
-Answer:",C,D. INCONSISTENT,D
+Answer:",C,A. LOGICALLY EQUIVALENT,A
 formal_logic,"Question:  Which of the given formulas of PL is the best symbolization of the following sentence?
 Either England's importing beef is a necessary condition for France's subsidizing agriculture or China's promoting human rights is not a sufficient condition for South Africa's supplying diamonds.
 Options:
@@ -2294,7 +2294,7 @@ A. 6%
 B. 13%
 C. 27%
 D. 46%
-Answer:",B,C. 27,C
+Answer:",B,D. 46,D
 global_facts,"Question: As of 2019, about what percentage of Germans say the relationship between the U.S. and Germany is good?
 Options:
 A. 34%

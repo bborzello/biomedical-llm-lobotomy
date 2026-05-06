@@ -1150,7 +1150,7 @@ A. Style over substance
 B. Question begging epithets
 C. Hypostatization
 D. Amphiboly
-Answer:",B,C.,C
+Answer:",B,1. 1,A
 logical_fallacies,"Question: Arguing that a claim must be true merely because a substantial number of people believe it is called the fallacy of...
 Options:
 A. Tu quoque
@@ -1326,7 +1326,7 @@ A. including more than one claim in the proposition and treating proof for one c
 B. asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.
 C. arguing that a claim must be true because there is no evidence that it is false.
 D. arguing something is inferior just because it doesn't do something it was never intended to do.
-Answer:",A,A. THE COMPLEX PROPOSITION,A
+Answer:",A,THE COMPLEX PROPOSITION FALLACY,X
 logical_fallacies,"Question: Anecdotal evidence is a specific kind of
 Options:
 A. False sign
@@ -1474,7 +1474,7 @@ A. eliminating a source of evidence from consideration by claiming the source is
 B. reasoning that an act or series of acts should be carried out because they will have no significant consequences, when there is no evidence there will be no consequences
 C. drawing a conclusion after purposely leaving out evidence or ignoring known evidence that might contradict a claim
 D. arguing that something is the right thing to do based only on evidence that other people are already doing it.
-Answer:",D,C. C. C,C
+Answer:",D,C. D. C,C
 logical_fallacies,"Question: Which of the following is another name for evading the issue?
 Options:
 A. ""you too"" fallacy
@@ -2443,7 +2443,7 @@ A. 1
 B. 7
 C. 13
 D. 19
-Answer:",D,CANDIDATE 1,A
+Answer:",D,ROSS PEROT,X
 global_facts,"Question: As of 2019, about what percentage of Turks say God plays an important role in their life?
 Options:
 A. 59%

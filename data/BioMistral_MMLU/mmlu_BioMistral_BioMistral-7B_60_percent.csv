@@ -134,7 +134,7 @@ A. (∃x){Fx • (∀y)[Dy ⊃ (∃z)(Vz • Rxyz)]}
 B. (∃x){Fx • (∃y)[Vy • (∃z)(Dz • Rxyz)]}
 C. (∃x){Fx • (∃y)(∃z)[(Vy • Dz) • Rxzy]}
 D. (∀x){Fx ⊃ (∃y)[Vy . (∃z)(Dz • Rxyz)]}
-Answer:",B,A. (��,A
+Answer:",B,B. (��,B
 formal_logic,"Question: Identify the antecedent of the following conditional proposition: The university raises tuition if, and only if, both the governor approves of it and the board of trustees recommends it.
 Options:
 A. The university raises tuition.
@@ -256,7 +256,7 @@ A. Inconsistent
 B. Consistent. Consistent valuation when A and D are true and B and C are false
 C. Consistent. Consistent valuation when A, B, and D are true and C is false
 D. Consistent. Consistent valuation when C and D are true and A and B are false
-Answer:",B,B ⊃,B
+Answer:",B,B ⊇,B
 formal_logic,"Question:  Construct a complete truth table for the following argument. Then, using the truth table, determine whether the argument is valid or invalid. If the argument is invalid, choose an option which presents a counterexample. (There may be other counterexamples as well.)
 M ∨ N
 ~M · O / N
@@ -916,7 +916,8 @@ A. Logically equivalent
 B. Contradictory
 C. Neither logically equivalent nor contradictory, but consistent
 D. Inconsistent
-Answer:",D,B. CONTRAD,B
+Answer:",D,"B
+EXPLANATION",B
 formal_logic,"Question:  Select the best translation into predicate logic: All first-year students take a swim test.
 Options:
 A. (∀x)(Sx ⊃ Fx)
@@ -1968,7 +1969,7 @@ A. a priori
 B. Complex proposition
 C. Extension
 D. Appeal to ignorance
-Answer:",B,D. APPEAL TO,D
+Answer:",B,C. EXTENSION,C
 logical_fallacies,"Question: Which of the following is a test of the validity of a conditional syllogism?
 Options:
 A. Every term must be used twice--no more and no less
@@ -2550,7 +2551,7 @@ A. strongly supported by most studies
 B. supported mainly by cross-section, not time-series studies
 C. supported mainly by time-series, not cross-section studies
 D. generally repudiated by empirical studies
-Answer:",B,B. SUPPORTED MAINLY BY,B
+Answer:",B,B,B
 global_facts,"Question: Worldwide, 30 year old men have spent 10 years in school, on average. How many years have women of the same age spent in school, as of 2020?
 Options:
 A. 12 years

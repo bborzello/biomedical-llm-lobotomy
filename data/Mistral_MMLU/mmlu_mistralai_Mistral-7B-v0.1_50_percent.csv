@@ -2229,7 +2229,7 @@ C. a specific type of false analogy that reasons what is true about nature must 
 D. drawing a conclusion without enough evidence to support that conclusion
 Answer:",A,"C
 
-EXPLAN",C
+QUESTION:",C
 logical_fallacies,"Question: All things that are spoiled are inedible. Timothy is spoiled. So, Timothy is inedible.
 Options:
 A. Equivocation
@@ -2494,7 +2494,7 @@ C. arguing that a claim should be accepted based on evidence that is not present
 D. arguing someone should accept a claim based only on the evidence that he or she has the favorable characteristics to understand the truth of the claim.
 Answer:",C,"C
 
-QUESTION:",C
+EXPLAN",C
 logical_fallacies,"Question: "" _Ad lazarum_ "" is a specific kind of
 Options:
 A. Anecdotal evidence
@@ -4659,7 +4659,7 @@ C. Carnosine
 D. Amylase
 Answer:",C,"C
 
-SOLUTION",C
+EXPLAN",C
 college_medicine,"Question: A team of engineers constructing signal lights for airplanes that they can use to guide them to runways are attempting to determine the brightness needed for the pilot to be able to detect the tower at 1 mile away. They set the light to a test brightness and establish communication with an inbound pilot. When the pilot is 1 mile away from the tower, he says he cannot see the light. In terms of Signal Detection Theory, what would this be called?
 Options:
 A. Hit
@@ -4747,9 +4747,9 @@ A. Passive transport
 B. Passive diffusion
 C. Active transport
 D. Endocytosis
-Answer:",A,"C
+Answer:",A,"B
 
-EXPLAN",C
+EXPLAN",B
 college_medicine,"Question: Which of the following molecules will stop being produced first when oxygen is no longer supplied to the cell?
 Options:
 A. Oxaloacetate
@@ -5316,7 +5316,7 @@ C. troponin and tropomyosin.
 D. myosin and tropomyosin.
 Answer:",B,"C
 
-QUESTION:",C
+EXPLAN",C
 clinical_knowledge,"Question: Which one of the following represents a IIIrd cranial nerve palsy and is a neurosurgical emergency?
 Options:
 A. Unilateral constricted pupil.
@@ -6240,7 +6240,7 @@ C. Carnosine
 D. Amylase
 Answer:",C,"C
 
-SOLUTION",C
+EXPLAN",C
 clinical_knowledge,"Question: Which of the following is true about Addisons Disease?
 Options:
 A. It is due to a deficiency of prolactin hormone

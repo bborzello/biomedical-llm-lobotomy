@@ -1033,7 +1033,7 @@ A. (∃x)[Cx • (∀y)(Py • Wxy)]
 B. (∃x)[Cx ⊃ (∀y)(Py ⊃ Wxy)]
 C. (∃x)[Cx • (∀y)(Py ⊃ Wxy)]
 D. (∀x)[Px ⊃ (∃y)(Cy ⊃ Wxy)]
-Answer:",C,­­­­­,X
+Answer:",C,UD­­­­,X
 formal_logic,"Question:  Select the best translation into predicate logic. All children go to some school. (Cx: x is a child; Sx: x is a school; Gxy: x goes to y)
 Options:
 A. (∀x)(∃y)[(Cx • Sy) • Gxy)
@@ -1173,7 +1173,7 @@ A. responding to an argument with an expression of derision instead of a counter
 B. arguing against a position based only on negative personal feelings toward the position
 C. arguing someone should do something only because that person dislikes someone else
 D. saying someone shouldn't do something because if he or she does it people won't like him or her
-Answer:",C,AP­O,X
+Answer:",C,LESTL-,X
 logical_fallacies,"Question: _Ad hominem_ is another name for the fallacy of
 Options:
 A. appeal to loyalty
@@ -2137,7 +2137,7 @@ A. Irrelevant to her character
 B. Evidence that the claims are false
 C. Irrelevant to the truth of the claims
 D. Relevant only in court
-Answer:",C,-C-,C
+Answer:",C,-C-S,C
 logical_fallacies,"Question: If someone says if you do something it will lead to extreme consequences, but doesn't provide you with any evidence of a cause and effect relationship between your act and those consequences, that person has probably committed which of the following fallacies?
 Options:
 A. ad nauseam
@@ -2326,7 +2326,7 @@ A. 55,000
 B. 550,000
 C. 5,500,000
 D. 55,000,000
-Answer:",B,-L -,X
+Answer:",B,-O-O,X
 global_facts,"Question: In 1965 how many Americans thought that sending troops to Vietnam was a mistake?
 Options:
 A. 25%
@@ -3486,7 +3486,7 @@ A. Absence of the protein
 B. Production of a similar-sized but dysfunctional protein
 C. No change
 D. Production of a larger, likely dysfunctional protein
-Answer:",D,BOLAKO- /******/ MEDIA,X
+Answer:",D,AKOINTH BOL TYAKO,X
 college_medicine,"Question: Glycolysis is the name given to the pathway involving the conversion of:
 Options:
 A. glycogen to glucose-1-phosphate.
@@ -5220,7 +5220,7 @@ A. To create an air seal within the trachea and reduce the risk of aspirating sa
 B. To reduce local oedema.
 C. To assist with swallowing.
 D. To allow the patient to talk.
-Answer:",A,­Y­Y,X
+Answer:",A,­Y­­,X
 clinical_knowledge,"Question: What type of covalent bonds link the amino acids in a protein?
 Options:
 A. Peptide bonds
@@ -5354,7 +5354,7 @@ A. Inspiratory component louder and longer with a gap between expiration and ins
 B. Expiratory component louder and longer with a gap between inspiration and expiration
 C. Inspiratory component louder and longer with a gap between inspiration and expiration
 D. Expiratory component louder and longer with a gap between expiration and inspiration
-Answer:",B,PL­L­L,X
+Answer:",B,L­L­,X
 clinical_knowledge,"Question: Which of the following drugs is most commonly responsible for patients who present with acute confusion?
 Options:
 A. Heroin (opiates).

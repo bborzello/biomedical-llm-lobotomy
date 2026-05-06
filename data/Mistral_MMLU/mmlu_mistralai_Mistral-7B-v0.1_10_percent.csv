@@ -296,7 +296,7 @@ A. Valid
 B. Invalid. Counterexample when M and O are true and N is false
 C. Invalid. Counterexample when M is true and O and N are false
 D. Invalid. Counterexample when O is true and M and N are false
-Answer:",A,THE ABOVE TRUTH,X
+Answer:",A,THE GIVEN ARGUMENT,X
 formal_logic,"Question:  Which of the following propositions is an immediate (one-step) consequence in PL of the given premises?
 U ⊃ W
 W ⊃ (X ≡ ~Y)
@@ -772,9 +772,9 @@ A. (∀x)(∀y)[(Bx • Ny) ⊃ Lxy]
 B. (∀x)[Bx ⊃ (∃y)(Ny • Lxy)]
 C. (∀x)[(∃y)(Ny • Bx) ⊃ Lxy]
 D. (∀x)(∃y)[(Bx • Ny) ⊃ Lxy]
-Answer:",B,"D
+Answer:",B,"OPTION A
 
-QUESTION:",D
+QUESTION",A
 formal_logic,"Question: Identify the conclusion of the following argument. Utilitarian theory is embarrassed by the possibility of utility monsters. A utility monster gets enormous gains in utility, greater than the utility lost by the sacrifices of others. The sacrifices of even large numbers of other people are outweighed by the gains of the utility monster. The theory seems to require that we all be sacrificed in the monste's maw in order to increase total utility. (Robert Nozick, Anarchy, State, and Utopia)
 Options:
 A. Utilitarian theory is embarrassed by the possibility of utility monsters.
@@ -1139,9 +1139,9 @@ A. Valid
 B. Invalid. Counterexample when L, M, and N are true and K is false
 C. Invalid. Counterexample when L and M are true and K and N are false
 D. Invalid. Counterexample when L and N are true and K and M are false
-Answer:",D,"OPTION B
+Answer:",D,"B
 
-QUESTION",B
+QUESTION:",B
 formal_logic,"Question:  Construct a complete truth table for the following argument. Then, using the truth table, determine whether the argument is valid or invalid. If the argument is invalid, choose an option which presents a counterexample. (There may be other counterexamples as well.)
 (G ≡ H) · ~I
 ~G ∨ (~H ∨ I) / G
@@ -3160,7 +3160,7 @@ A. 79%
 B. 98%
 C. 33%
 D. 57%
-Answer:",D,98%,B
+Answer:",D,C. 33,C
 college_medicine,"Question: A police officer carries out hundreds of traffic stops every year. When his supervisor is reviewing the officer’s records for the past year, he notices that the officer is equally likely to stop people of various genders, ages, and races. However, he is significantly more likely to write tickets for middle-aged white males with dark hair and eyes. When confronted with this fact, the officer truthfully states that he has no idea why that is, and that it must simply be a coincidence. Unbeknownst to the officer, this behavior is tied to the fact that these men look like his father, with whom he had an abusive relationship as a child. What psychological framework would directly address the unconscious bias in his behavior? 
 Options:
 A. Behaviorist

@@ -59,7 +59,9 @@ A. Valid
 B. Invalid. Counterexample when K and L are true
 C. Invalid. Counterexample when K is true and L is false
 D. Invalid. Counterexample when L is true and K is false
-Answer:",D,THE CORRECT ANSWER,X
+Answer:",D,"OPTION B
+
+JUST",B
 formal_logic,"Question: Identify the antecedent of the following conditional proposition: If the university does not increase financial aid, either the president fails to approve it or the board of trustees prevents it.
 Options:
 A. The university increases financial aid.
@@ -958,9 +960,9 @@ A. It is wrong for society to kill a murderer.
 B. This follows for the reason that if a murderer is wrong in killing his victim, then society is also wrong in killing the murderer.
 C. If a murderer is wrong in killing his victim, then society is also wrong in killing the murderer.
 D. And a murderer is wrong in killing his victim.
-Answer:",A,"OPTION A
+Answer:",A,"C
 
-QUESTION",A
+QUESTION:",C
 formal_logic,"Question:  Which of the following propositions is not an immediate (one-step) consequence in PL of the given premises?
 I ⊃ (J ≡ K)
 (J ≡ K) ⊃ (L ∨ M)
@@ -2420,7 +2422,7 @@ A. About $300
 B. About $3k
 C. About $8k
 D. About $15k
-Answer:",B,ABOUT $3K,B
+Answer:",B,ABOUT $300,A
 global_facts,"Question: As of 2019, about what percentage of people from the United States says homosexuality should be accepted by society?
 Options:
 A. 52%
@@ -4316,7 +4318,7 @@ A. Metaphase — Formation of two distinct nuclear membranes
 B. Cytokinesis — Separation of sister chromatids to their respective poles
 C. Telophase — Formation of the equatorial plate
 D. Anaphase — Separation of the cytoplasm and organelles
-Answer:",A,SEND YOUR ANSWER,X
+Answer:",A,THE CORRECT ANSWER,X
 college_medicine,"Question: A study examined admissions to exceptionally selective colleges. When examining the correlates of admission acceptance, two obvious factors that strongly correlated with admissions were GPA and standardized test scores, with correlation values of +0.41 and +0.55 respectively. However, the study also demonstrated that those students who had social networks that overlapped with the alumni networks of the selective colleges were even more likely to be admitted, with a correlation between social network and alumni network of +0.61. This correlation demonstrates:
 Options:
 A. the value of cultural capital.

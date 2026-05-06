@@ -117,7 +117,8 @@ A. Valid
 B. Invalid. Counterexample when E, F, and G are true
 C. Invalid. Counterexample when E and F are true and G is false
 D. Invalid. Counterexample when E, F, and G are false
-Answer:",C,ENERATION ENER,X
+Answer:",C,"FANSI
+E",X
 formal_logic,"Question: Use indirect truth tables to determine whether the following argument is valid. If the argument is invalid, choose an option which presents a counterexample. (There may be other counterexamples as well.)
 H ≡ (~I ∨ J)
 H ∨ ~J / ~I
@@ -774,7 +775,7 @@ A. ~A ∨ ~B
 B. ~~C
 C. C ∨ D
 D. (A ∨ B) ⊃ D
-Answer:",C,B. B. C,B
+Answer:",C,B. C. C,B
 formal_logic,"Question: Identify the antecedent of the following conditional proposition: When the university raises tuition, then either the governor approves of it or the board of trustees doesn't prevent it.
 Options:
 A. The university raises tuition.
@@ -1031,7 +1032,7 @@ A. (∃x)[Cx • (∀y)(Py • Wxy)]
 B. (∃x)[Cx ⊃ (∀y)(Py ⊃ Wxy)]
 C. (∃x)[Cx • (∀y)(Py ⊃ Wxy)]
 D. (∀x)[Px ⊃ (∃y)(Cy ⊃ Wxy)]
-Answer:",C,WY WY W,X
+Answer:",C,WAFFS WY,X
 formal_logic,"Question:  Select the best translation into predicate logic. All children go to some school. (Cx: x is a child; Sx: x is a school; Gxy: x goes to y)
 Options:
 A. (∀x)(∃y)[(Cx • Sy) • Gxy)
@@ -2114,7 +2115,7 @@ A. Not reasonable
 B. An appeal to tradition
 C. An appeal to the masses
 D. Reasonable
-Answer:",A,REASSAL. RE,X
+Answer:",A,SIBLING  C.,C
 logical_fallacies,"Question: A slippery-slope pattern of argument is fallacious when...
 Options:
 A. It is hypothetical
@@ -3096,7 +3097,7 @@ A. Low self-esteem, strong self-efficacy, internal locus of control
 B. High self-esteem, strong self-efficacy, internal locus of control
 C. Low self-esteem, strong self-efficacy, external locus of control
 D. Low self-esteem, low self-efficacy, internal locus of control
-Answer:",A,TAPLESTAP,X
+Answer:",A,TAPEL-ENH,X
 college_medicine,"Question: A common heart defect in humans is a ventricular septal defect, in which there is a hole in the septum between the right and left ventricles. If a patient were to have this defect, which of the following statements is correct?
 Options:
 A. The percentage of oxygen in the left atrium would be lower.
@@ -3277,7 +3278,7 @@ A. does not influence exercise performance in events lasting less than 10 minute
 B. affects the resting muscle pH.
 C. may impair high intensity exercise performance.
 D. results in greater reliance on muscle glycogen during exercise.
-Answer:",C,SOLLY 1,A
+Answer:",C,SOLY 1,A
 college_medicine,"Question: Which of the following processes is not used to modify protein structure after translation has occurred?
 Options:
 A. Lipidation.
@@ -4112,7 +4113,7 @@ A. the number of X chromosomes from the mother.
 B. a recessive allele on the X chromosome.
 C. a single Y chromosome from the mother.
 D. a single Y chromosome from the father.
-Answer:",D,S. B. B,B
+Answer:",D,SIBLING ROCHI,X
 college_medicine,"Question: The blood glucose concentration during 80-90 minutes of intermittent high intensity exercise:
 Options:
 A. frequently rises by 1 - 3 mM.
@@ -4896,7 +4897,7 @@ A. the number of X chromosomes from the mother.
 B. a recessive allele on the X chromosome.
 C. a single Y chromosome from the mother.
 D. a single Y chromosome from the father.
-Answer:",D,S. B. B,B
+Answer:",D,SIBLING ROCHI,X
 clinical_knowledge,"Question: Which of the following is true in spastic paraplegia?
 Options:
 A. Multiple Sclerosis can cause this neurological pattern
