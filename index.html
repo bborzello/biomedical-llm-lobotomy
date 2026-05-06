@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- saved from url=(0014)about:internet -->
 <html lang=" en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,43 +12,32 @@
   <link href="./files/css2" rel="stylesheet">
   <link href="./files/css" rel="stylesheet">
 
-
   <base href="." target="_blank"></head>
-
 
 <body>
   <div>
     <div class="wrapper">
-      <h1 style="font-family: &#39;Lato&#39;, sans-serif;">BioMedical LLM Lobotomy</h1>
-      <h4 style="font-family: &#39;Lato&#39;, sans-serif; ">Spring 2026 CSCI 5541 NLP: Class Project - University of Minnesota</h4>
-      <h4 style="font-family: &#39;Lato&#39;, sans-serif; ">The Lobotomizers</h4>
+      <h1 style="font-family: 'Lato', sans-serif;">BioMedical LLM Lobotomy</h1>
+      <h4 style="font-family: 'Lato', sans-serif; ">Spring 2026 CSCI 5541 NLP: Class Project - University of Minnesota</h4>
+      <h4 style="font-family: 'Lato', sans-serif; ">The Lobotomizers</h4>
 
       <div class="authors-wrapper">
         
         <div class="author-container">
           <div class="author-image">
-                        
               <img src="">
-            
-            
           </div>
           <p>
-                        
               Brandon Borzello
-            
           </p>
         </div>
         
         <div class="author-container">
           <div class="author-image">
-            
             <img src="">
-            
           </div>
           <p>
-            
             Shantanu Dalvi
-            
           </p>
         </div>
         
@@ -59,10 +47,9 @@
 
       <div class="authors-wrapper">
         <div class="publication-links">
-          <!-- Github link -->
           <span class="link-block">
             <a
-              href=""
+              href="[INSERT_PDF_LINK_HERE]"
               target="_blank"
               class="external-link button is-normal is-rounded is-dark is-outlined"
             >
@@ -71,56 +58,34 @@
           </span>
           <span class="link-block">
             <a
-              href=""
+              href="https://github.com/bborzello/biomedical-llm-lobotomy/"
               target="_blank"
               class="external-link button is-normal is-rounded is-dark is-outlined"
             >
             <span>Code</span>
             </a>
           </span>      
-          <span class="link-block">
-            <a
-              href=""
-              target="_blank"
-              class="external-link button is-normal is-rounded is-dark is-outlined"
-            >
-            <span>Model Weights</span>
-            </a>
-          </span>              
         </div>
       </div>
 
-
     </div>
   </div>
-
-
-
-
-
-  
-  
-
 
   <div class="wrapper">
     <hr>
     
     <h2 id="abstract">Abstract</h2>
 
-<p>Large Language Models (LLMs) require massive computational resources, which results in barriers to deployment in resource-constrained medical environments. While research such as the Lottery Ticket Hypothesis and SparseGPT demonstrates that general-purpose neural networks are extremely over-parametrized and compressible, the limits of this sparsity when it comes to a specific field like medical knowledge is largely unexplored. In this proposal, we outline our procedure for a study using unstructured magnitude pruning on the BioMistral-7B and Mistral architectures. By evaluating the model on the PubMedQA and cais/mmlu datasets using increasing levels of sparsity, we are aiming to find the precise computational cost of retaining specialized medical reasoning and establish a resilience curve for domain-specific LLMs.</p>
+<p>Large Language Models (LLMs) require massive computational resources, which results in barriers to deployment in resource-constrained medical environments. While research such as the Lottery Ticket Hypothesis and SparseGPT demonstrates that general-purpose neural networks are extremely over-parametrized and compressible, the limits of this sparsity when it comes to a specific field like medical knowledge was largely unexplored. In this report, we outline the results of our study using unstructured magnitude pruning on the BioMistral-7B and Mistral architectures. By evaluating the models on the PubMedQA and MMLU datasets using increasing levels of sparsity, we aimed to find the precise computational cost of retaining specialized medical reasoning. Ultimately, our data invalidates the idea that fine-tuning makes a model brittle; instead, we found that domain specialization creates a "Structural Shield" that protects medical knowledge against severe architectural damage.</p>
 
 <hr>
 
-<h2 id="teaser">Teaser Figure</h2>
+<h2 id="teaser">The Cognitive Cliff</h2>
 
-<p>This figure is from <a href="https://deepchecks.com/llm-pruning-and-distillation-importance/">deepchecks</a>.</p>
+<p>Fine-tuning does not make medical models brittle. We lobotomized BioMistral and Base Mistral using unstructured pruning. As shown below, BioMistral developed a "Structural Shield" that protected its reasoning up to 60% sparsity, whereas the base model collapsed rapidly.</p>
 
-<p class="sys-img"><img src="./files/img-llm-pruning.jpg" alt="imgname"></p>
+<p class="sys-img"><img src="./files/mmlu_medical_degradation.png" alt="MMLU Medical Degradation"></p>
 
-
-<h3 id="the-timeline-and-the-highlights">The High Level Idea</h3>
-
-<p>We are essentially trying to sever specific connections within the model while maintaining its overall performance.</p>
 
 <hr>
 
@@ -130,28 +95,28 @@
 <b>What did you try to do? What problem did you try to solve?</b>
 </p>
 <p>
-Modern LLMs have billions of parameters, which result in the requirement of massive amounts of computing power, as seen by the surge in data center construction and GPU purchases by large tech companies. The sheer scale of this computing has resulted in impressive models that perform well across many subjects; it also makes it nearly impossible to run these models in resource-constrained or offline environments.
+Modern LLMs have billions of parameters, which result in the requirement of massive amounts of computing power. The sheer scale of this computing makes it nearly impossible to run these models in resource-constrained or offline environments, such as local triage centers or hospitals. 
 </p>
 
 <p>
 <b>What are your objectives?</b>
 </p>
 <p>
-The core issue is that we do not know for certain how much of the massive parameter counts these models boast are strictly necessary for specialized, specific knowledge of particular fields. Our goal is to determine how much redundancy is present inside biomedical LLMs. More specifically, we want to know: How many of the biomedical LLMs' parameters can be pruned before it experiences a drastic falloff in medical knowledge and diagnostic accuracy?
+The core issue is that we do not know for certain how much of the massive parameter counts these models boast are strictly necessary for specialized, specific knowledge of particular fields. Our goal was to determine how much redundancy is present inside biomedical LLMs. More specifically: How many of a biomedical LLM's parameters can be pruned before it experiences a drastic falloff in medical knowledge and diagnostic accuracy?
 </p>
 
 <p>
 <b>How is it done today, and what are the limits of current practice?</b>
 </p>
 <p>
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-<p>
+Current research demonstrates that up to 50-60% of a general-purpose neural network's weights can be redundant. However, the literature only focuses on general-purpose LLMs. The limitation of current practice is that the specific methodology of testing unstructured pruning on a specialized fine-tuned LLM, and comparing it to a general-purpose control model, had not been explored. The standard assumption is that fine-tuning strictly improves model utility, but it was unknown if forcing a model to specialize structurally compromised its foundational logic circuits.
+</p>
 
 <p>
 <b>Who cares? If you are successful, what difference will it make?</b>
 </p>
 <p>
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+This research is important for machine learning engineers and healthcare providers looking to deploy localized LLMs. By finding the limits of this sparsity, our findings can be applied to estimate the amount of computing power that can be saved by pruning. This allows highly capable diagnostic tools to run on smaller, consumer-grade hardware without relying on cloud APIs, which is often a strict requirement for HIPAA compliance.
 </p>
 
 <hr>
@@ -163,7 +128,7 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 </p>
 
 <p>
-First, we will begin with a baseline evaluation at 0% sparsity. We will evaluate their performance on all three of our datasets. Next, using a custom PyTorch script, we will systematically zero-out the lowest-magnitude weights across the layers of both models. We will be using increments of 10%. At each sparsity threshold, we will run an evaluation loop. For the MMLU subsets, we will only track Classification Accuracy. For PubMedQA, we will track Accuracy, Recall, Precision, and F1-Score. Next, we will visualize the data using graphs and charts.
+We evaluated both the open-source BioMistral-7B model and the base Mistral-7B model. Because Mistral serves as the foundation for BioMistral, evaluating both provided a crucial control metric. First, we began with a baseline evaluation at 0% sparsity. Next, using a custom PyTorch script, we systematically zeroed-out the lowest-magnitude weights across the layers of both models using increments of 5% to map the cognitive cliff. To evaluate accuracy effectively, we created a multi-tiered regex parser to successfully isolate true factual amnesia from simple instruction-following collapse.
 </p>
 
 <p>
@@ -171,7 +136,7 @@ First, we will begin with a baseline evaluation at 0% sparsity. We will evaluate
 </p>
 
 <p>
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+One major challenge we encountered was VRAM constraints. Operating on a Dual T4 GPU environment necessitated a transition from global magnitude pruning to layer-wise L1 norm unstructured pruning. Global unstructured pruning requires sorting the entire parameter space simultaneously, which instantly triggered Out-Of-Memory (OOM) errors. Layer-wise pruning solved this by isolating the sorting memory overhead to a single tensor boundary at a time.
 </p>
 
 <hr>
@@ -181,57 +146,83 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
 <b>How did you measure success? What experiments were used? What were the results, both quantitative and qualitative? Did you succeed? Did you fail? Why?</b>
 </p>
 <p>
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+For the MMLU subsets (Logic and Medical), we tracked multiple-choice Classification Accuracy. For PubMedQA, where the questions are answered in a "Yes, No, Maybe" format, we tracked the Macro F1-score to balance precision and recall, as a false-negative in a medical setting is a catastrophic failure. 
 </p>
-<table>
+<p>
+Our evaluations successfully charted the degradation curves for both models. Interestingly, we discovered a "Zero-Shot Affirmative Bias" on PubMedQA. Both models exploited the dataset's ground truth imbalance (55.2% "Yes" answers) by defaulting to affirmative answers over 73% of the time, resulting in an artificially tied baseline. Because the baseline was compromised, the true value of the fine-tuning was only revealed during degradation. BioMistral demonstrated superior structural resilience, yielding higher Area Under the Curve (AUC) robustness scores across the board.
+</p>
+
+<br>
+<h3 style="text-align: center;">Robustness Scores (Area Under the F1 Curve)</h3>
+<table style="margin-left: auto; margin-right: auto; width: 80%;">
   <thead>
     <tr>
-      <th style="text-align: center"><strong>Experiment</strong></th>
-      <th style="text-align: center">1</th>
-      <th style="text-align: center">2</th>
-      <th style="text-align: center">3</th>
+      <th style="text-align: center"><strong>Dataset / Domain</strong></th>
+      <th style="text-align: center">Base Mistral AUC</th>
+      <th style="text-align: center">BioMistral AUC</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center"><strong>Sentence</strong></td>
-      <td style="text-align: center">Example 1</td>
-      <td style="text-align: center">Example 2</td>
-      <td style="text-align: center">Example 3</td>
+      <td style="text-align: center"><strong>PubMedQA</strong></td>
+      <td style="text-align: center">0.4871</td>
+      <td style="text-align: center">0.4787 (Tie due to Bias)</td>
     </tr>
     <tr>
-      <td style="text-align: center"><strong>Errors</strong></td>
-      <td style="text-align: center">error A, error B, error C</td>
-      <td style="text-align: center">error C</td>
-      <td style="text-align: center">error B</td>
+      <td style="text-align: center"><strong>MMLU: Logic</strong></td>
+      <td style="text-align: center">0.2282</td>
+      <td style="text-align: center"><strong>0.2606</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>MMLU: Medical</strong></td>
+      <td style="text-align: center">0.2894</td>
+      <td style="text-align: center"><strong>0.3399</strong></td>
     </tr>
   </tbody>
-  <caption>Table 1. This is Table 1's caption</caption>
 </table>
 <br>
+
 <div style="text-align: center;">
-<img style="height: 300px;" alt="" src="./files/results.png">
+  <img style="width: 80%; margin-bottom: 20px;" alt="PubMedQA Affirmative Bias" src="./files/pubmedqa_affirmative_bias.png">
+  <p><em>The Zero-Shot Affirmative Bias. Both models falsely achieve a high baseline by defaulting to "Yes" to exploit the ground truth's imbalance.</em></p>
+  
+  <img style="width: 80%; margin-bottom: 20px;" alt="PubMedQA Degradation" src="./files/pubmedqa_degradation.png">
+  <p><em>PubMedQA Degradation. The illusion of the tied baseline breaks as sparsity increases.</em></p>
+  
+  <img style="width: 80%; margin-bottom: 20px;" alt="MMLU Logic Degradation" src="./files/mmlu_logic_degradation.png">
+  <p><em>MMLU Logic Degradation. The medical fine-tuning unexpectedly fortified foundational deductive reasoning.</em></p>
 </div>
 <br><br>
 
-<hr>
-
-
-
-<h2 id="conclusion">Conclustion and Future Work</h2>
 <p>
-
-  How easily are your results able to be reproduced by others?
-  Did your dataset or annotation affect other people's choice of research or development projects to undertake?
-  Does your work have potential harm or risk to our society? What kinds? If so, how can you address them?
-  What limitations does your model have? How can you extend your work for future research?</p>
-
+<b>Qualitative Error Analysis:</b> At 50% sparsity in the MMLU College Medicine subset, Base Mistral suffered from instruction collapse. While it generated the correct underlying string ("ATP"), it hallucinated the start of a new prompt ("QUESTION"), breaking the required multiple-choice structure and triggering an invalid ("X") parse in our pipeline. Conversely, BioMistral's structural shield maintained both factual accuracy and generative discipline, successfully outputting the correct semantic answer. By 75% sparsity, the base model deteriorated into total generative amnesia, outputting meaningless unicode loops (e.g., "Ú /******/").
+</p>
 
 <hr>
 
+<h2 id="conclusion">Conclusion and Future Work</h2>
+<p>
+<b>How easily are your results able to be reproduced by others?</b><br>
+These results are highly replicable. Because we utilized open-source models (BioMistral and Mistral) rather than proprietary ones, and evaluated them on public benchmark datasets, any researcher with a custom PyTorch ablation script can reproduce these degradation curves.
+</p>
+
+<p>
+<b>Did your dataset or annotation affect other people's choice of research or development projects to undertake?</b><br>
+Our findings regarding the PubMedQA dataset will force a shift in how future researchers approach medical AI benchmarking. By proving that PubMedQA is highly susceptible to the "Zero-Shot Affirmative Bias" exploit, our work demonstrates that researchers can no longer rely on raw baseline F1 scores for this dataset. Future development projects will be forced to implement strict multi-tiered parsing defenses similar to ours to ensure they are measuring true medical reasoning rather than statistical probability gaming.
+</p>
+
+<p>
+<b>Does your work have potential harm or risk to our society? What kinds? If so, how can you address them?</b><br>
+There is a potential risk to society if highly pruned, "lobotomized" LLMs are deployed without rigorous testing. If a pruned model outputs a false-negative (sending a sick patient home and saying they're healthy), it is a catastrophic failure. To address this, developers must establish strict sparsity safety thresholds based on resilience curves like ours before deploying models in clinical settings.
+</p>
+
+<p>
+<b>What limitations does your model have? How can you extend your work for future research?</b><br>
+A major limitation of our current model of testing is that unstructured magnitude pruning does not natively speed up inference or save electricity without specialized sparse-compute hardware. Furthermore, at extreme sparsity (80%+), pruning blindly severs critical self-attention mechanisms, causing unavoidable formatting collapse in both models. If we extend this work for future research, we can utilize structured pruning to remove entire attention heads rather than isolated parameters, and apply our findings to test model quantization to abstract the exact compute power saved.
+</p>
+
+<hr>
 
   </div>
   
-
-
 </body></html>

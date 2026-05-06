@@ -32,7 +32,7 @@ plt.xticks(sparsities)
 plt.ylim(-0.05, 1.05)
 plt.legend(loc='upper right', fontsize=10, frameon=True, shadow=True)
 
-output_file = current_dir.parent / "files" / "results.png"
+output_file = current_dir.parent / "files" / "prelim_results.png"
 plt.savefig(output_file, dpi=300, bbox_inches='tight')
 print(f"Graph successfully saved as {output_file}!")
 
